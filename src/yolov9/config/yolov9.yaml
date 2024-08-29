@@ -1,0 +1,39 @@
+# YOLOv9 ROS2 Configuration
+# Created by: Xavier Vicent
+# Email: xvicentnavar2024@fau.edu
+# Description: This YAML configuration file contains parameters for the YOLOv9 object detection node in ROS2.
+#              If you use or reference this configuration, please give appropriate credit.
+
+detector:
+  ros__parameters:
+    weights: ${HOME}/yolov9_ros/src/yolov9/yolov9/gelan-c.pt
+    source: 'ros'
+    imgsz: [480, 640]
+    conf_thres: 0.8
+    iou_thres: 0.45
+    max_det: 1000
+    device: "0"
+    view_img: true
+    save_txt: false
+    save_conf: false
+    save_crop: false
+    nosave: false
+    classes: []
+    agnostic_nms: false
+    augment: false
+    visualize: false
+    update: false
+    project: ${HOME}/yolov9_ros/src/yolov9/yolov9/runs/detect
+    name: exp
+    exist_ok: false
+    line_thickness: 3
+    hide_labels: false
+    hide_conf: false
+    half: false
+    dnn: false
+    vid_stride: 1
+    data: ${HOME}/yolov9_ros/src/yolov9/yolov9/data/coco128.yaml
+    input_topic: '/camera/raw/image'  
+    output_topic_image: '/yolov9/annotated_image'  
+    output_topic_detections: '/yolov9/detections' 
+
