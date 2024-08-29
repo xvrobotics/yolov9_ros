@@ -1,0 +1,72 @@
+running egg_info
+creating ../../build/yolov9/yolov9.egg-info
+writing ../../build/yolov9/yolov9.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolov9/yolov9.egg-info/dependency_links.txt
+writing entry points to ../../build/yolov9/yolov9.egg-info/entry_points.txt
+writing requirements to ../../build/yolov9/yolov9.egg-info/requires.txt
+writing top-level names to ../../build/yolov9/yolov9.egg-info/top_level.txt
+writing manifest file '../../build/yolov9/yolov9.egg-info/SOURCES.txt'
+reading manifest file '../../build/yolov9/yolov9.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolov9/yolov9.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xavi/yolov9_ros/build/yolov9/build
+creating /home/xavi/yolov9_ros/build/yolov9/build/lib
+creating /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/val.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/detect_ros.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/detect_dual.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/benchmarks.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/hubconf.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/train_triple.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/val_dual.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/detect.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/train_dual.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/__init__.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/export.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/stream.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/train.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+copying yolov9/val_triple.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+running install
+running install_lib
+creating /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/val.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/detect_ros.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/detect_dual.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/benchmarks.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/hubconf.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/train_triple.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/val_dual.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/detect.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/train_dual.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/__init__.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/export.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/stream.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/train.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/val_triple.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/val.py to val.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/detect_ros.py to detect_ros.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/detect_dual.py to detect_dual.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/benchmarks.py to benchmarks.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/hubconf.py to hubconf.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/train_triple.py to train_triple.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/val_dual.py to val_dual.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/detect.py to detect.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/train_dual.py to train_dual.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/export.py to export.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/stream.py to stream.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/train.py to train.cpython-310.pyc
+byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/val_triple.py to val_triple.cpython-310.pyc
+running install_data
+creating /home/xavi/yolov9_ros/install/yolov9/share/ament_index
+creating /home/xavi/yolov9_ros/install/yolov9/share/ament_index/resource_index
+creating /home/xavi/yolov9_ros/install/yolov9/share/ament_index/resource_index/packages
+copying resource/yolov9 -> /home/xavi/yolov9_ros/install/yolov9/share/ament_index/resource_index/packages
+copying launch/yolov9.launch.py -> /home/xavi/yolov9_ros/install/yolov9/share/yolov9
+running install_egg_info
+Copying ../../build/yolov9/yolov9.egg-info to /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9-0.0.1-py3.10.egg-info
+running install_scripts
+Installing detector script to /home/xavi/yolov9_ros/install/yolov9/lib/yolov9
+Installing stream script to /home/xavi/yolov9_ros/install/yolov9/lib/yolov9
+writing list of installed files to '/home/xavi/yolov9_ros/build/yolov9/install.log'

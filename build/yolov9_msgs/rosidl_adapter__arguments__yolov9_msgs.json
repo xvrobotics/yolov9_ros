@@ -1,0 +1,6 @@
+{
+  "package_name": "yolov9_msgs",
+  "non_idl_tuples": [
+    "/home/xavi/yolov9_ros/src/yolov9_msgs:msg/YoloDetection.msg"
+  ]
+}

@@ -1,0 +1,74 @@
+[0.968s] Invoking command in '/home/xavi/yolov9_ros/src/yolov9': PYTHONPATH=/home/xavi/yolov9_ros/build/yolov9/prefix_override:/home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov9 build --build-base /home/xavi/yolov9_ros/build/yolov9/build install --record /home/xavi/yolov9_ros/build/yolov9/install.log --single-version-externally-managed
+[1.168s] running egg_info
+[1.168s] creating ../../build/yolov9/yolov9.egg-info
+[1.168s] writing ../../build/yolov9/yolov9.egg-info/PKG-INFO
+[1.168s] writing dependency_links to ../../build/yolov9/yolov9.egg-info/dependency_links.txt
+[1.168s] writing entry points to ../../build/yolov9/yolov9.egg-info/entry_points.txt
+[1.168s] writing requirements to ../../build/yolov9/yolov9.egg-info/requires.txt
+[1.168s] writing top-level names to ../../build/yolov9/yolov9.egg-info/top_level.txt
+[1.168s] writing manifest file '../../build/yolov9/yolov9.egg-info/SOURCES.txt'
+[1.187s] reading manifest file '../../build/yolov9/yolov9.egg-info/SOURCES.txt'
+[1.187s] writing manifest file '../../build/yolov9/yolov9.egg-info/SOURCES.txt'
+[1.187s] running build
+[1.188s] running build_py
+[1.188s] creating /home/xavi/yolov9_ros/build/yolov9/build
+[1.188s] creating /home/xavi/yolov9_ros/build/yolov9/build/lib
+[1.188s] creating /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/val.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/detect_ros.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/detect_dual.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/benchmarks.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/hubconf.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/train_triple.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/val_dual.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/detect.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/train_dual.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/__init__.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/export.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/stream.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/train.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] copying yolov9/val_triple.py -> /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9
+[1.188s] running install
+[1.188s] running install_lib
+[1.189s] creating /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/val.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/detect_ros.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/detect_dual.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/benchmarks.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/hubconf.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/train_triple.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/val_dual.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/detect.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/train_dual.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/__init__.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/export.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/stream.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/train.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.189s] copying /home/xavi/yolov9_ros/build/yolov9/build/lib/yolov9/val_triple.py -> /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9
+[1.190s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/val.py to val.cpython-310.pyc
+[1.192s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/detect_ros.py to detect_ros.cpython-310.pyc
+[1.193s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/detect_dual.py to detect_dual.cpython-310.pyc
+[1.194s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/benchmarks.py to benchmarks.cpython-310.pyc
+[1.195s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/hubconf.py to hubconf.cpython-310.pyc
+[1.196s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/train_triple.py to train_triple.cpython-310.pyc
+[1.199s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/val_dual.py to val_dual.cpython-310.pyc
+[1.201s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/detect.py to detect.cpython-310.pyc
+[1.202s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/train_dual.py to train_dual.cpython-310.pyc
+[1.205s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/__init__.py to __init__.cpython-310.pyc
+[1.205s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/export.py to export.cpython-310.pyc
+[1.208s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/stream.py to stream.cpython-310.pyc
+[1.208s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/train.py to train.cpython-310.pyc
+[1.211s] byte-compiling /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9/val_triple.py to val_triple.cpython-310.pyc
+[1.213s] running install_data
+[1.214s] creating /home/xavi/yolov9_ros/install/yolov9/share/ament_index
+[1.214s] creating /home/xavi/yolov9_ros/install/yolov9/share/ament_index/resource_index
+[1.214s] creating /home/xavi/yolov9_ros/install/yolov9/share/ament_index/resource_index/packages
+[1.214s] copying resource/yolov9 -> /home/xavi/yolov9_ros/install/yolov9/share/ament_index/resource_index/packages
+[1.214s] copying launch/yolov9.launch.py -> /home/xavi/yolov9_ros/install/yolov9/share/yolov9
+[1.214s] running install_egg_info
+[1.215s] Copying ../../build/yolov9/yolov9.egg-info to /home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages/yolov9-0.0.1-py3.10.egg-info
+[1.215s] running install_scripts
+[1.227s] Installing detector script to /home/xavi/yolov9_ros/install/yolov9/lib/yolov9
+[1.227s] Installing stream script to /home/xavi/yolov9_ros/install/yolov9/lib/yolov9
+[1.228s] writing list of installed files to '/home/xavi/yolov9_ros/build/yolov9/install.log'
+[1.245s] Invoked command in '/home/xavi/yolov9_ros/src/yolov9' returned '0': PYTHONPATH=/home/xavi/yolov9_ros/build/yolov9/prefix_override:/home/xavi/yolov9_ros/install/yolov9/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov9 build --build-base /home/xavi/yolov9_ros/build/yolov9/build install --record /home/xavi/yolov9_ros/build/yolov9/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+detector = yolov9.detect_ros:main
+stream = yolov9.stream:main
+

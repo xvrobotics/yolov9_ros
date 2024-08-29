@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'detector = yolov9.detect:main',  # Replace with the actual entry point
+            'detector = yolov9.detect_ros:main',  # Replace with the actual entry point
             'stream = yolov9.stream:main',  # Replace with the actual entry point
         ],
     },
