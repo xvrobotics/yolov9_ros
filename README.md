@@ -114,7 +114,7 @@ You can fine-tune the YOLOv9 model by adjusting the parameters in the `config` f
 Here's an example of how to run the package, make sure you changed the :
 
 ```bash
-ros2 launch yolov9_ros yolov9.launch.py
+ros2 launch yolov9 yolov9.launch.py
 ```
 ## Citation
 
