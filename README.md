@@ -66,7 +66,7 @@ ros2 launch yolov9_ros yolov9.launch.py
 
 ### Subscribed Topics
 
-- **`/input_image`**: Subscribes to an image topic for object detection.
+- **`/camera/raw/image`**: Subscribes to an image topic for object detection.
 
 ### Parameters
 
