@@ -27,7 +27,7 @@
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/yolov9_ros.git
+    git clone https://github.com/xvrobotics/yolov9_ros.git
     cd yolov9_ros
     ```
 
