@@ -34,11 +34,13 @@
 2. **Install Dependencies**:
     Ensure all required dependencies are installed.
     ```bash
-    pip install -r requirements.txt
+    cd src/yolov9/yolov9
+    pip3 install -r requirements.txt
     ```
 
 3. **Build the Package**:
     ```bash
+    cd ~/yolov9_ros
     colcon build
     ```
 
@@ -70,11 +72,38 @@ ros2 launch yolov9_ros yolov9.launch.py
 
 ### Parameters
 
-- **`model_path`**: Path to the YOLOv9 model weights.
-- **`confidence_threshold`**: Minimum confidence required for a detection to be considered valid.
-- **`input_topic`**: The topic to subscribe to for incoming images.
-- **`output_topic_image`**: The topic to publish the annotated image.
-- **`output_topic_detections`**: The topic to publish detection data.
+- **`weights`**: Path to the YOLOv9 model weights.
+- **`source`**: Input source for detection (`ros` for ROS topic, or other sources like file path).
+- **`conf_thres`**: Minimum confidence required for a detection to be considered valid.
+- **`imgsz`**: Image size used for inference.
+- **`iou_thres`**: IoU threshold for non-max suppression.
+- **`max_det`**: Maximum number of detections per image.
+- **`device`**: Device to run inference on (`0` for GPU, `cpu` for CPU).
+- **`view_img`**: Boolean flag to display the annotated image.
+- **`save_txt`**: Boolean flag to save detection results as text.
+- **`save_conf`**: Boolean flag to save confidence scores in the text labels.
+- **`save_crop`**: Boolean flag to save cropped detection results.
+- **`nosave`**: Boolean flag to prevent saving images/videos.
+- **`classes`**: Filter detections by class.
+- **`agnostic_nms`**: Boolean flag for class-agnostic non-max suppression.
+- **`augment`**: Boolean flag for augmented inference.
+- **`visualize`**: Boolean flag to visualize feature maps.
+- **`update`**: Boolean flag to update all models.
+- **`project`**: Directory to save results.
+- **`name`**: Name of the folder to save results.
+- **`exist_ok`**: Boolean flag to allow overwriting of existing project names.
+- **`line_thickness`**: Thickness of bounding box lines in the annotated image.
+- **`hide_labels`**: Boolean flag to hide labels in the annotated image.
+- **`hide_conf`**: Boolean flag to hide confidence scores in the annotated image.
+- **`half`**: Boolean flag to use FP16 half-precision inference.
+- **`dnn`**: Boolean flag to use OpenCV DNN for ONNX inference.
+- **`vid_stride`**: Video frame-rate stride.
+- **`data`**: Path to the dataset YAML file.
+- **`input_topic`**: The topic to subscribe to for incoming images. Default is `/camera/raw/image`.
+- **`output_topic_image`**: The topic to publish the annotated image. Default is `/yolov9/annotated_image`.
+- **`output_topic_detections`**: The topic to publish detection data. Default is `/yolov9/detections`.
+
+
 
 ## Customization
 
@@ -82,10 +111,10 @@ You can fine-tune the YOLOv9 model by adjusting the parameters in the `config` f
 
 ## Example
 
-Here's an example of how to run the package:
+Here's an example of how to run the package, make sure you changed the :
 
 ```bash
-ros2 launch yolov9_ros yolov9.launch.py input_topic:=/camera/image_raw output_topic_image:=/yolov9/annotated_image output_topic_detections:=/yolov9/detections
+ros2 launch yolov9_ros yolov9.launch.py
 ```
 ## Citation
 
