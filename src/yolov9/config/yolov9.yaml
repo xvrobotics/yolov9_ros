@@ -33,7 +33,7 @@ detector:
     dnn: false
     vid_stride: 1
     data: ${HOME}/yolov9_ros/src/yolov9/yolov9/data/data.yaml
-    input_topic: '/camera/raw_image'  
+    input_topic: '/camera/raw/image'  
     output_topic_image: '/yolov9/annotated_image'  
     output_topic_detections: '/yolov9/detections' 
 
