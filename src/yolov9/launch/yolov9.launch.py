@@ -1,22 +1,22 @@
-#!/usr/bin/env python3
-# YOLOv9 ROS2 Launch File
-# Created by: Xavier Vicent
-# Email: xvicentnavar2024@fau.edu
-# Description: This launch file starts the YOLOv9 object detection node in ROS2.
-#              If you use or reference this code, please give appropriate credit.
 import os
 from launch import LaunchDescription
 from launch_ros.actions import Node
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
+    yolov9_config_path = os.path.join(
+        get_package_share_directory('yolov9'),
+        'config',
+        'yolov9.yaml'
+    )
+
     return LaunchDescription([
         Node(
-            package='yolov9',  # Replace with your actual package name
-            executable='detector',  # Replace with the actual executable name
+            package='yolov9',
+            executable='detector',
             name='detector',
-            output='screen',
-            parameters=[os.path.expanduser('~/yolov9_ros/src/yolov9/config/yolov9.yaml')]
-  # Replace with the path to your YAML file
+            parameters=[yolov9_config_path],
+            output='screen'
         ),
     ])
 

@@ -26,10 +26,10 @@ from yolov9_msgs.msg import YoloDetection
 
 # Set up the file paths dynamically
 FILE = Path(__file__).resolve()
-ROOT = Path.home() / 'yolov9_ros/src/yolov9/yolov9'  # Direct path to the models and utils directories
+ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))  # Add ROOT to sys.path
-
+    
 from models.common import DetectMultiBackend
 from utils.dataloaders import IMG_FORMATS, VID_FORMATS, LoadImages, LoadScreenshots, LoadStreams
 from utils.general import (LOGGER, Profile, check_file, check_img_size, check_imshow, colorstr, cv2,

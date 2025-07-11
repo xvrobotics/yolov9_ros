@@ -6,7 +6,7 @@
 
 detector:
   ros__parameters:
-    weights: ${HOME}/yolov9_ros/src/yolov9/yolov9/gelan-c.pt
+    weights: ${HOME}/yolov9_ros/src/yolov9/yolov9/best.pt
     source: 'ros'
     imgsz: [480, 640]
     conf_thres: 0.8
@@ -32,8 +32,8 @@ detector:
     half: false
     dnn: false
     vid_stride: 1
-    data: ${HOME}/yolov9_ros/src/yolov9/yolov9/data/coco128.yaml
-    input_topic: '/camera/raw/image'  
+    data: ${HOME}/yolov9_ros/src/yolov9/yolov9/data/data.yaml
+    input_topic: '/camera/raw_image'  
     output_topic_image: '/yolov9/annotated_image'  
     output_topic_detections: '/yolov9/detections' 
 
