@@ -56,7 +56,7 @@
 To start the YOLOv9 detection node, run the following command:
 
 ```bash
-ros2 launch yolov9_ros yolov9.launch.py
+ros2 launch yolov9 yolov9.launch.py
 ```
 ### Published Topics
 
